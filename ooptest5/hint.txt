@@ -1,0 +1,6 @@
+Sour operator+(const Sour &other)
+
+=> 要另設物件Sour
+
+
+46min:53.17

@@ -1,0 +1,7 @@
+gcovr --exclude test 
+
+gcovr . --html-details report.html
+
+valgrind ./bin/ut_all
+
+以上三種，確認涵蓋的line

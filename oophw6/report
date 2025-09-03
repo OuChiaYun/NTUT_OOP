@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>GCC Code Coverage Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="report.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>GCC Code Coverage Report</h1>
+
+      <hr/>
+
+      <div class="summary">
+<div>
+  <table class="legend">
+    <tr>
+      <th scope="row">Directory:</th>
+      <td>./</td>
+    </tr>
+    <tr>
+      <th scope="row">Date:</th>
+      <td>2022-12-22 18:44:54</td>
+    </tr>
+    <tr>
+      <th scope="row">Coverage:</th>
+      <td class="legend">
+        <span class="coverage-low">low: &ge; 0%</span>
+        <span class="coverage-medium">medium: &ge; 75.0%</span>
+        <span class="coverage-high">high: &ge; 90.0%</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div>
+  <table class="coverage">
+    <tr>
+      <th></th>
+      <th scope="col">Exec</th>
+      <th scope="col">Total</th>
+      <th scope="col">Coverage</th>
+    </tr>
+    <tr>
+      <th scope="row">Lines:</th>
+      <td>275</td>
+      <td>279</td>
+      <td class="coverage-high">98.6%</td>
+    </tr>
+    <tr>
+      <th scope="row">Functions:</th>
+      <td>129</td>
+      <td>134</td>
+      <td class="coverage-high">96.3%</td>
+    </tr>
+    <tr>
+      <th scope="row">Branches:</th>
+      <td>574</td>
+      <td>1604</td>
+      <td class="coverage-low">35.8%</td>
+    </tr>
+  </table>
+</div>
+      </div>
+
+      <hr/>
+    </header>
+
+    <nav>
+<a href="report.functions.html">List of functions</a>
+    </nav>
+
+    <main>
+<table class="file-list">
+  <col/>
+  <colgroup span="3"/>
+  <colgroup span="2"/>
+  <colgroup span="2"/>
+
+  <tr>
+    <th scope="col">File</th>
+    <th scope="colgroup" colspan=3>Lines</th>
+    <th scope="colgroup" colspan=2>Functions</th>
+    <th scope="colgroup" colspan=2>Branches</th>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.alcohol.h.83267225643b4fd3cf94aa8d68617e0e.html">src/alcohol.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">30 / 30</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">8 / 8</td>
+    <td class="CoverValue branch-coverage coverage-low">70.6%</td>
+    <td class="CoverValue branch-coverage coverage-low">24 / 34</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.algorithm.h.89df5fddbfa99cd6ffdd09aed8dc0c42.html">src/algorithm.h</a>
+    </th>
+    <td>
+      <meter class="coverage-medium" min="0" max="100" value="80.0" title="80.0%">80.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-medium">80.0%</td>
+    <td class="CoverValue line-coverage coverage-medium">16 / 20</td>
+    <td class="CoverValue function-coverage coverage-low">54.5%</td>
+    <td class="CoverValue function-coverage coverage-low">6 / 11</td>
+    <td class="CoverValue branch-coverage coverage-low">42.9%</td>
+    <td class="CoverValue branch-coverage coverage-low">6 / 14</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.order.h.304ead1f9c84dd85cba3cf50b5f04ce4.html">src/order.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">10 / 10</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">5 / 5</td>
+    <td class="CoverValue branch-coverage coverage-unknown">-%</td>
+    <td class="CoverValue branch-coverage coverage-unknown">0 / 0</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.sour.h.34a49e0aa670fef742422ddebef81ea8.html">src/sour.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">21 / 21</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">8 / 8</td>
+    <td class="CoverValue branch-coverage coverage-low">71.4%</td>
+    <td class="CoverValue branch-coverage coverage-low">10 / 14</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.tequila.h.a10859b4b841364935f836c5208c71f4.html">src/tequila.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">21 / 21</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">8 / 8</td>
+    <td class="CoverValue branch-coverage coverage-low">71.4%</td>
+    <td class="CoverValue branch-coverage coverage-low">10 / 14</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.ut_alcohol.h.4777f5baafc2756ef4de43811eb52a9c.html">test/ut_alcohol.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">18 / 18</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">15 / 15</td>
+    <td class="CoverValue branch-coverage coverage-low">33.6%</td>
+    <td class="CoverValue branch-coverage coverage-low">74 / 220</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.ut_algorithm.h.c0240365599d66a0f409aa7f4d4cbb9b.html">test/ut_algorithm.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">54 / 54</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">15 / 15</td>
+    <td class="CoverValue branch-coverage coverage-low">37.9%</td>
+    <td class="CoverValue branch-coverage coverage-low">113 / 298</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.ut_main.cpp.fce44399a023e80fa42a3e7850aba909.html">test/ut_main.cpp</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">4 / 4</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">1 / 1</td>
+    <td class="CoverValue branch-coverage coverage-low">50.0%</td>
+    <td class="CoverValue branch-coverage coverage-low">2 / 4</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.ut_order.h.021693e5dfde0749e469cc23bbbb2722.html">test/ut_order.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">10 / 10</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">3 / 3</td>
+    <td class="CoverValue branch-coverage coverage-low">35.7%</td>
+    <td class="CoverValue branch-coverage coverage-low">20 / 56</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.ut_sour.h.2091286e52f7549277c8a56158d2d70b.html">test/ut_sour.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">46 / 46</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">30 / 30</td>
+    <td class="CoverValue branch-coverage coverage-low">33.2%</td>
+    <td class="CoverValue branch-coverage coverage-low">158 / 476</td>
+  </tr>
+
+
+  <tr>
+    <th scope="row">
+      <a href="report.ut_tequila.h.bc858c34e4d69f6a772414581c159c52.html">test/ut_tequila.h</a>
+    </th>
+    <td>
+      <meter class="coverage-high" min="0" max="100" value="100.0" title="100.0%">100.0</meter>
+    </td>
+    <td class="CoverValue line-coverage coverage-high">100.0%</td>
+    <td class="CoverValue line-coverage coverage-high">45 / 45</td>
+    <td class="CoverValue function-coverage coverage-high">100.0%</td>
+    <td class="CoverValue function-coverage coverage-high">30 / 30</td>
+    <td class="CoverValue branch-coverage coverage-low">33.1%</td>
+    <td class="CoverValue branch-coverage coverage-low">157 / 474</td>
+  </tr>
+
+</table>
+      <hr/>
+    </main>
+
+    <footer>
+      Generated by: <a href="http://gcovr.com">GCOVR (Version 5.2)</a>
+    </footer>
+  </body>
+</html>
